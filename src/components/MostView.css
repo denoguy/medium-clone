@@ -1,0 +1,31 @@
+.mostView {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.mostView > img {
+  margin-left: 30px;
+}
+.mostView__user {
+  display: flex;
+  align-items: center;
+}
+
+.mostView__user > h4 {
+  padding: 20px;
+}
+
+.mostView > p {
+  margin-top: 10px;
+  color: gray;
+}
+
+.mostview__timestamp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.mostview__timestamp > p {
+  color: gray;
+}

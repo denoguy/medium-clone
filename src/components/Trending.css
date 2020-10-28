@@ -1,3 +1,7 @@
+.trending {
+  border-bottom: 1px solid lightgray;
+}
+
 .trending__title {
   display: flex;
   align-items: center;

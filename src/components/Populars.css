@@ -1,0 +1,12 @@
+.popular {
+  display: flex;
+  margin: 50px;
+}
+
+.most__watch {
+  flex: 0.6;
+}
+
+.footer {
+  flex: 0.4;
+}
