@@ -1,0 +1,39 @@
+.feed {
+  display: flex;
+  margin-top: 10px;
+}
+
+.feed__left {
+  flex: 0.3;
+}
+
+.feed__left-info {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.feed__left-info > p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.feed__left-detail > .subheading {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.feed__left-detail > p {
+  margin-top: 10px;
+  color: gray;
+}
+
+.feed__center {
+  flex: 0.3;
+  margin-left: 30px;
+}
+
+.feed__right {
+  flex: 0.3;
+}

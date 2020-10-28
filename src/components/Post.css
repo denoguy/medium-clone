@@ -1,0 +1,23 @@
+.post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.post__info__header {
+  display: flex;
+  align-items: center;
+}
+
+.post__info__header > p {
+  padding: 10px;
+  font-weight: 500;
+}
+
+.post__info > p {
+  color: gray;
+  padding-top: 10px;
+}
+
+.post__image > img {
+  margin-left: 20px;
+}
