@@ -1,6 +1,8 @@
 .feed {
   display: flex;
   margin-top: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
 }
 
 .feed__left {
@@ -20,8 +22,8 @@
 }
 
 .feed__left-detail > .subheading {
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .feed__left-detail > p {
@@ -36,4 +38,13 @@
 
 .feed__right {
   flex: 0.3;
+  margin-left: 100px;
+}
+
+.feed__right > img {
+  margin-top: 20px;
+}
+
+.feed__right > p {
+  font-size: 12px;
 }

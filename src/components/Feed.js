@@ -2,6 +2,7 @@ import { Avatar } from "@material-ui/core";
 import React from "react";
 import "./Feed.css";
 import Post from "./Post";
+import Topics from "./Topics";
 
 function Feed() {
   return (
@@ -19,12 +20,12 @@ function Feed() {
           <p>Pragya Jaiswal</p>
         </div>
         <div className="feed__left-detail">
-          <h2>
+          <h3>
             How I Fully Quit Google (And You <br /> Can, Too)
-          </h2>
-          <h2 className="subheading">
+          </h3>
+          <h3 className="subheading">
             My enlightening quest to break free of a tech <br /> giant
-          </h2>
+          </h3>
           <p>Read More 12 read</p>
         </div>
       </div>
@@ -59,7 +60,15 @@ function Feed() {
           image="https://miro.medium.com/fit/c/100/100/1*kEPCQNY4dwVyaFuLEwJcNQ.png"
         />
       </div>
-      <div className="feed__right"></div>
+      <div className="feed__right">
+        <h4>LATEST FROM FOLLOWING</h4>
+        <img
+          src="https://miro.medium.com/fit/c/64/64/1*lqoEFtUfSwuNP0WcnKmC3Q.png"
+          alt=""
+        />
+        <p>Refraction...</p>
+        <Topics />
+      </div>
     </div>
   );
 }

@@ -10,7 +10,7 @@ function Post({ avatar, username, title, timestamp, image }) {
           <Avatar style={{ height: "30px", width: "30px" }} src={avatar} />
           <p>{username}</p>
         </div>
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         <p>{timestamp}</p>
       </div>
       <div className="post__image">

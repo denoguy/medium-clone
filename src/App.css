@@ -1,3 +1,7 @@
 .app {
   padding: 40px;
 }
+
+.app__body {
+  margin-top: 40px;
+}

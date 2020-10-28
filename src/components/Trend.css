@@ -1,0 +1,21 @@
+.trend {
+  height: 150px;
+  width: 350px;
+  margin: 30px;
+}
+.trend__user {
+  display: flex;
+  align-items: center;
+}
+
+.trend__user > h4 {
+  padding: 10px;
+}
+
+.trend > h3 {
+  margin-top: 10px;
+}
+.trend > p {
+  margin-top: 10px;
+  color: gray;
+}

@@ -1,0 +1,12 @@
+.trending__title {
+  display: flex;
+  align-items: center;
+}
+
+.trending__title > h4 {
+  margin-left: 10px;
+}
+.trending__details {
+  display: flex;
+  flex-wrap: wrap;
+}
